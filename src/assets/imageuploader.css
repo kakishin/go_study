@@ -1,0 +1,59 @@
+html{
+    background-color: whitesmoke;
+}
+
+#IUcontainer {
+    display: grid;
+    grid-template-rows: 1fr 550px 1fr;
+    grid-template-columns: 1fr 300px 1fr;
+    min-height: 100vh;
+}
+
+#IUheader {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
+
+#IUmain {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 8px gray;
+}
+
+#IUtitle {
+    font-size: 18px;
+}
+
+#IUsub {
+    font-size: 12px;
+}
+
+#IUloader {
+    background-color: #F0F8FF;
+    border-style: dashed;
+    border-color: #75A9FF;
+    border-radius: 20px;
+    height: 60%;
+    margin: 20px;
+}
+
+.material-icons.image {
+    font-size: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#IUchooseafile {
+    background-color: #4689FF;
+    border-radius: 5px;
+    color: white;
+    width: 60%;
+    min-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    outline:0;
+}
